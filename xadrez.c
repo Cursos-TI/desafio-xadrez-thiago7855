@@ -24,6 +24,8 @@ int main() {
     printf("esquerda\n");
     casa_rainha++;                  
     } while (casa_rainha < 8);
+
+    printf("Fim do desafio xadrez");
     
     return 0;
 
