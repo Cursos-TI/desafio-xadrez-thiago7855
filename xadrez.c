@@ -22,10 +22,19 @@ int main() {
         casa_rainha++;
     } while (casa_rainha < 8);
 
-    // Finalização do programa
-    printf("Fim do desafio xadrez\n");
+    // Movimento do Cavalo: padrão em "L" (2 para cima e 1 para a direita)
+    printf("\nMovimento do Cavalo:\n");
+    for (int i = 0; i < 1; i++) { // Apenas um movimento completo
+        for (int j = 0; j < 2; j++) {
+            printf("cima\n");
+        }
+        printf("direita\n");
+    }
 
+    printf("\nFim do Desafio Xadrez\n");
     return 0;
+
+    
 }
 
   
